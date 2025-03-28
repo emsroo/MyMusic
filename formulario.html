@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiniones musicales</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="links">
+    <a href="./index.html"> Inicio</a>
+    </div>
+    
+    <form action="" method="post">
+        <h1>Comentarios acerca de la banda</h1>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre completo">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="ingresa tu correo">
+
+        <label for="fecha-de-nacimiento">Opinion</label>
+        <input type="text" name="fecha-de-nacimiento" id="fecha-de-nacimiento">
+        <label for="password">Contasena</label>
+        <input type="password" name="password" id="password">
+        <div class="radio-group">
+            <label>Calificación de 1 al 5:</label>
+            <div class="radio-group">
+                <div class="radio-item">
+                    <input type="radio" name="calificacion" id="calificacion1">
+                    <label for="calificacion1">1</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" name="calificacion" id="calificacion2">
+                    <label for="calificacion2">2</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" name="calificacion" id="calificacion3">
+                    <label for="calificacion3">3</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" name="calificacion" id="calificacion4">
+                    <label for="calificacion4">4</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" name="calificacion" id="calificacion5">
+                    <label for="calificacion5">5</label>
+                </div>
+            </div>
+        <!-- <input type="submit" value="submit"> -->
+         <!-- esto siempre va a funcionar como un typo submit -->
+         <button type="submit">
+            Enviar
+         </button>
+
+
+    </form>
+
+</body>
+
+</html>
