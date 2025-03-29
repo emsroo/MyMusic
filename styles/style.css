@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Monsieur+La+Doulaise&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 .monsieur-la-doulaise-regular {
     font-family: "Monsieur La Doulaise", cursive;
     font-weight: 400;
     font-style: normal;
   }
-
+.disco{
+    background-color: rgb(34, 204, 164);
+}
+.formi{
+    font-family: "Ubuntu", sans-serif;;
+}
+.p{
+    font-family: "Ubuntu", sans-serif;;
+    font-size: 300;
+}
+.h5{
+    font-family: "Ubuntu", sans-serif;
+}
 h1
     {
         font-family: "Lobster", sans-serif;
@@ -31,6 +43,8 @@ h1
     text-align: center;
     /* padding:10px; */
     margin-bottom: 10px;
+    margin: auto;
+    align-content: center;
 
     border-radius: 5px;
     transition: margin-right 2s;
@@ -47,6 +61,9 @@ html{
 img{
     display: block;
     margin: 0 auto;
+    border: 60px;
+    /* padding: 40px; */
+    /* : ; */
 }
 
 h5{
@@ -85,6 +102,9 @@ input, button {
 .radio-item input {
     margin-bottom: 5px; /* Space between radio button and number */
 }
+
+
+
 
 /* html{
     color: antiquewhite;
